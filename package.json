@@ -1,0 +1,28 @@
+{
+  "name": "synthdef-json-builder",
+  "description": "synthdef-json-builder",
+  "version": "0.0.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/synthdef-json-builder/issues"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
+  "homepage": "https://github.com/mohayonao/synthdef-json-builder/",
+  "keywords": [
+    "supercollider",
+    "synthdef"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/synthdef-json-builder.git"
+  }
+}
