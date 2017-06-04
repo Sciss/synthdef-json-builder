@@ -1,0 +1,10 @@
+{
+  "require": [
+    "babel-register"
+  ],
+  "exclude": [
+    "test/**/*.js"
+  ],
+  "sourceMap": false,
+  "instrument": false
+}
