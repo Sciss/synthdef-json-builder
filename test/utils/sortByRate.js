@@ -1,0 +1,16 @@
+"use strict";
+
+const assert = require("assert");
+const sortByRate = require("../../src/utils/sortByRate");
+
+describe("utils/sortByRate(list)", () => {
+  it("should sort by rate (audio < control < scalar)", () => {
+    const a = sortByRate([
+      0, { rate: "audio" }, { rate: "control" }, { rate: "control" }, 0, { rate: "audio" }
+    ]);
+
+    assert.deepEqual(a, [
+      { rate: "audio" }, { rate: "audio" }, { rate: "control" }, { rate: "control" }, 0, 0
+    ]);
+  });
+});
